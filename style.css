@@ -1,0 +1,25 @@
+.container {
+    width: 600px;
+    /* height: 200px; */
+    border: 5px;
+    border: 5px solid #333;
+    margin: 30px auto;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    /* flex-direction: column; */
+}
+
+/* .container::after {
+    content: '';
+    display: block;
+    clear: both;
+} */
+
+.container div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(68, 0, 255);
+    margin: 2px;
+    /* float: left; */
+}
